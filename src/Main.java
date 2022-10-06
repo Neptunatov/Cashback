@@ -1,14 +1,27 @@
 public class Main {
     public static void main(String[] args) {
 
+
         int cashBack;
-        int cash;
-        cash = 988;
-        if (cash >= 1000) {
-            cashBack = cash / 100;
-            System.out.println((cash + cashback) + " баланс вашего счета");
+        int cashDeposit;
+        int account;
+        int moneyBill;
+
+        account = 1000;
+        cashDeposit = 232;
+
+        moneyBill = account + cashDeposit;
+
+        if (cashDeposit >= 1000) {
+            cashBack = cashDeposit / 100;
         } else {
-            System.out.println((cash) + " баланс вашего счета");
+            cashBack = 0;
+        }
+
+        if (cashBack >= 1) {
+            System.out.println((moneyBill + cashBack) + " баланс вашего счета");
+        } else {
+            System.out.println((moneyBill) + " баланс вашего счета");
         }
     }
 }
